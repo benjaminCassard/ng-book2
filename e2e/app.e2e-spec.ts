@@ -1,10 +1,10 @@
-import { Angular2RedditPage } from './app.po';
+import { Angular2HelloWorldPage } from './app.po';
 
-describe('angular2-reddit App', function() {
-  let page: Angular2RedditPage;
+describe('angular2-hello-world App', function() {
+  let page: Angular2HelloWorldPage;
 
   beforeEach(() => {
-    page = new Angular2RedditPage();
+    page = new Angular2HelloWorldPage();
   });
 
   it('should display message saying app works', () => {
