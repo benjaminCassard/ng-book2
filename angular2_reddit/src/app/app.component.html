@@ -11,5 +11,5 @@
   <button (click)="addArticle(newtitle, newlink)" class="ui positive right floated button">Submit link</button>
 </form>
 <div class="ui grid posts">
-  <app-article *ngFor="let art of articles" [article]="art"></app-article>
+  <app-article *ngFor="let art of sortedArticles()" [article]="art"></app-article>
 </div>
